@@ -1,0 +1,28 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-9">
+    <title>Contact From Email Using JavaScript</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+<div class="container">
+    <form action="INDEX.php" method="post">
+        <h3>GET IN TOUCH</h3>
+            <input type="text" id="name" placeholder="Your Name"required>
+            <input type="email" id="email" placeholder="Email id"required>
+            
+            <textarea id="massage" rows="4" placeholder="How can help you"></textarea>
+            <button onclick="document.location = 'http://localhost:8081/phpmailer/'"> Authentication</button>
+
+    </form>
+    <form action="register.php"method="POST">
+        <input type="text" name="name website" placeholder="Enter name website" required />
+        <input type="email" name="email website" placeholder="Enter email website" required />
+        <input type="password" name="password website" placeholder="Enter password website" required />
+        <button onclick="document.location = 'http://localhost:8081/Email/register.php'"> Send pin number</button>
+    </form>
+</div>
+</body>
+</html>

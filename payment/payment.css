@@ -1,0 +1,130 @@
+/*
+.img{
+ background-image: url(444.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background: fixed;
+}
+*/
+div {
+    background-color: rgb(255, 255, 255);
+  
+}
+
+
+
+*{padding:0; margin:0; box-sizing: border-box; font-family:sans-serif;}
+header{
+    width:100vw;
+    min-height:100vh;
+    background-image: url("image/333.jpg");
+    font-size :1.2rem;
+    justify-content :center;
+    align-items :center;
+    display: flex;
+    background-size: 36%;
+    opacity: 1.5;
+}
+.container{
+background: aliceblue;
+max-width: 800px;
+min-height : 500px;
+align-items: flex-start;
+justify-content: space-between;
+display: flex;
+padding:0.5rem 1.5rem;
+}
+.left{
+
+  flex-basis: 10%;
+}
+.right{
+    flex-basis: 10%;
+
+}
+form{
+ padding: 1rem;
+ 
+
+}
+h3{
+
+    margin-top: 1rem;
+    color :rgb(3, 3, 3);
+    font-weight: bold;
+}
+form input [type ="text"]
+{
+width:100%;
+padding:0.5rem 0.7rem;
+margin: 0.5rem 0;
+outline:none;
+
+}
+#zip{
+
+display :flex;
+margin-top:0.5rem;
+
+
+}
+#zip select{
+    padding:0.5rem 0.7rem;
+
+}
+
+#zip input[ type="number"]{
+
+padding :0.5rem 0.7rem;
+margin-left: 5px;
+
+}
+
+
+
+input[type="submit"]{
+background-color: rgb(69, 212, 158);
+font-weight:bold;
+padding: 0.7rem 1.5rem;
+margin-top: 1rem;
+outline:none;
+width:100%;
+color:rgb(63, 40, 167);
+border: none;
+cursor:pointer;
+}
+
+input[type = "submit"]:hover{
+
+background: #5b82a8;
+
+color:bisque;
+
+}
+@media only screen and (max-width:770px){
+
+.container{
+ flex-direction :column;
+
+}
+
+}
+body { overflow-x:hidden;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
